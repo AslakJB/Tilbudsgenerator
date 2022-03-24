@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilbudsgenerator</title>
+</head>
+<body>
+
+    <form id="form">
+
+        <label for="ansattNavn">Ditt navn</label>
+        <input type="text" name="ansattNavn"><br>
+
+        <label for="brukerNavn">Kunden sitt navn</label>
+        <input type="text" name="kundeNavn"><br>
+
+        <label for="internett">Internett 50mbit</label>
+        <input type="radio" name="internett" value="Internett 50mbit">
+
+        <label for="internett">Internett 100mbit</label>
+        <input type="radio" name="internett" value="Internett 100mbit">
+
+        <label for="internett">Internett 300mbit</label>
+        <input type="radio" name="internett" value="Internett 300mbit">
+
+        <label for="internett">Internett 500mbit</label>
+        <input type="radio" name="internett" value="Internett 500mbit"><br>
+
+        <label for="ekstraTilbud">Ekstra TV-dekoder</label>
+        <input type="checkbox" name="ekstraTilbud" value="ekstraTvDekoder">
+
+        <label for="ekstraTilbud">Wifi-extender</label>
+        <input type="checkbox" name="ekstraTilbud" value="wifiExtender"><br>
+
+        <label for="engangsRabatt">Engangs Rabatt</label>
+        <input type="number" min="0" max="100" name="engangsRabatt">
+
+        <label for="måndteligRabatt">Måndtelig Rabatt</label>
+        <input type="number" min="0" max="100" name="måndteligRabatt"><br>
+
+
+        <input type="submit" value="Trykk">
+    </form>
+
+    <textarea id="svar" cols="50" rows="15"></textarea>
+
+
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
